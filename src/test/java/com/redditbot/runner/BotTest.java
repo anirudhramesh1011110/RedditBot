@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class BotTest {
 
-    public static final String SUBREDDIT = "WorldNews";
+    public static final String SUBREDDIT = "MemeAlleyway";
     Bot redditBot;
 
     @BeforeEach
@@ -20,7 +20,6 @@ class BotTest {
     public void findCaller() {
         redditBot.findCaller();
     }
-
 
 
 }
